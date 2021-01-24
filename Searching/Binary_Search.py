@@ -1,19 +1,4 @@
-'''
-Linear Search
-
-Time Complexcity   : O(n)
-Space Complexcity  : O(1)
-'''
-
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-t = 9
-for i in range(len(data)):
-	if data[i] == t:
-		print(True)
-
-'''
-
-   For Binary_Search
+''' 
    Time-Complexcity is O(log(n)) beacause it deletes the list if data is less than or greater than mid
    Space-Complexcity is O(1)
 
